@@ -405,9 +405,11 @@ table {
 }
 
 .main-section {
+  position: relative;
   height: 800px;
   background: #F0F0F0;
   padding-top: 16px;
+  overflow: hidden;
 }
 
 .main-section__nav-container {
@@ -440,6 +442,18 @@ table {
       -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
+}
+
+.main-section__first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 34px;
+}
+
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
 }
 
 .nav-menu__list {
@@ -516,6 +530,7 @@ table {
   position: absolute;
   top: 150px;
   right: 76px;
+  z-index: 2;
 }
 
 .right-wrapper__icons-box {
@@ -611,5 +626,38 @@ table {
 
 .buttons__text {
   font-size: 16px;
+}
+
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%);
+  border-radius: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.elipse_big {
+  width: 282px;
+  height: 282px;
+}
+
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F0F0F0;
+  border-radius: 250px;
+}
+
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
 }
 /*# sourceMappingURL=style.css.map */
