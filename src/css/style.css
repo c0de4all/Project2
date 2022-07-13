@@ -1072,6 +1072,26 @@ html {
   .icons-item__text {
     font-size: 16px;
   }
+  .third-section {
+    min-height: 490px;
+  }
+  .title__hr_top {
+    bottom: 50px;
+  }
+  .third-section__second-elipse {
+    top: -72px;
+    right: -72px;
+  }
+  .third-section__figure {
+    width: 130px;
+  }
+  .third-section__first-elipse {
+    top: 165px;
+    left: 111px;
+  }
+  .footer__img {
+    height: 270px;
+  }
 }
 
 @media (max-width: 767px) {
